@@ -21,13 +21,17 @@ export default {
     ]
   },
 
+  // serverMiddleware: [
+  //   '~/api/index.js',
+  // ],
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: ['~/plugins/auth0.js'],
+
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -42,6 +46,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/dotenv'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -65,5 +70,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  env: []
 }
