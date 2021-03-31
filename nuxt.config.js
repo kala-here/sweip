@@ -7,14 +7,19 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - sweip',
-    title: 'sweip',
+    title: 'sweip: SWE Interview Planner',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { name: 'google-site-verification', content: 'OJWjbuliMcBFuR01QLOlqGEms-WPTXGpRMqy-nTytrg' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Keep track of your accomplishments while you’re working'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
