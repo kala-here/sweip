@@ -18,7 +18,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Keep track of your accomplishments while you’re working'
+        content: `Keep track of your accomplishments while you’re working`
       }
     ],
     link: [
